@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Oswald:wght@200..700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #c778dd;
+  --color-background: #282c33;
+  --color-grayish: #ABB2BF;
+  --color-whitish: #ffffff;
+
+  --font-mono: 'Fira Code', monospace;
+  
+}
+
+*{
+
+  box-sizing: border-box;
+  font-family: var(--font-mono);
+}
+body{
+  background: var(--color-background);
+  overflow-x: hidden;
+}
+button{
+  cursor: pointer;
+}
+#root{
+  padding: 0;
+  margin: 0;
+}
+.nav-link{
+  @apply text-gray-300 hover:text-gray-400;
+  @apply px-3 py-2 rounded-md text-[15px] font-bold;
+}
+.socials{
+  @apply text-gray-300 hover:text-gray-400;
+  @apply px-3 py-2 rounded-md text-[20px] font-bold;
+}
+.button{
+  @apply text-whitish p-2 border-2 border-primary font-semibold w-max inline-flex items-center justify-center cursor-pointer;
+}
