@@ -11,9 +11,13 @@ const ProjectCard = ({
 	return (
 		<div className='flex flex-col min-w-[200px] max-w-[400px] border-1 border-grayish'>
 			{/* Image */}
-			<div className='w-full border-1 border-grayish'>
+			<div className='w-full border-1 border-grayish flex justify-center'>
 				{" "}
-				<img src={thumbnail} alt={title} className='max-h-[200px]' />{" "}
+				<img
+					src={thumbnail}
+					alt={title}
+					className='max-h-[300px] justify-center'
+				/>{" "}
 			</div>
 			{/* Technologies */}
 			<div className='text-grayish p-2'>
