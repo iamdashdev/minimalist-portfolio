@@ -13,7 +13,7 @@ const ProjectCard = ({
 			{/* Image */}
 			<div className='w-full border-1 border-grayish'>
 				{" "}
-				<img src={thumbnail} alt={title} />{" "}
+				<img src={thumbnail} alt={title} className='max-h-[200px]' />{" "}
 			</div>
 			{/* Technologies */}
 			<div className='text-grayish p-2'>
