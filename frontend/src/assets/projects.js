@@ -67,6 +67,15 @@ const projects = [
 		github: "https://github.com/iamdashdeveloper/react-admin",
 		live: "https://react-admin-henna-two.vercel.app/",
 		technologies: ["React", "Tailwind"]
+	},
+	{
+		id: 8,
+		title: "Redmi 12c Calculator clone",
+		description: "My phone's calculator remade with HTML, CSS and JavaScript",
+		thumbnail: "./assets/thumbnails/calculator.png",
+		github: "https://github.com/iamdashdev/calculator.git",
+		live: "https://redmi-web-calculator-clone.netlify.app/",
+		technologies: ["HTML", "CSS", "JavaScript"]
 	}
 ];
 
